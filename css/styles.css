@@ -1,0 +1,147 @@
+:root {
+  --light-text: #e4d8cc;
+  --dark-text: #101010;
+  --dark-bg: #101010;
+  --button: #7837f3;
+  --first-expect: #b99fea;
+  --mission-title: #e7dfd8;
+  --reviews-line: rgba(228, 216, 204, 0.1);
+  --additional-text: #c3bab1;
+  --second-expect: #96dbc6;
+  --header-btn: rgba(228, 216, 204, 0.5);
+  --footer-line: rgba(228, 216, 204, 0.16);
+  --third-expect: #eba789;
+  --additional: #ffffff;
+}
+
+*::selection {
+  background-color: var(--light-text);
+  color: var(--dark-text);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Inter;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  padding: 0 64px;
+  margin: 0 auto;
+  outline: red dashed;
+}
+
+/* banner */
+
+.banner {
+  background-image: url(../img/hero/hero-bg.webp);
+  background-size: cover;
+}
+
+/* header */
+
+.header {
+  padding: 23px 0;
+}
+
+.header-container {
+  display: flex;
+  gap: 253px;
+  padding: 0 22px 0 134px;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 32px;
+}
+
+.header-nav-link {
+  color: var(--light-text);
+  font-size: 11px;
+  line-height: 2.18;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: inherit;
+}
+
+.header-contacts-list {
+  display: flex;
+  gap: 38px;
+}
+
+.header-contacts-link {
+  color: var(--light-text);
+  font-size: 11px;
+  line-height: 2.18;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: inherit;
+}
+
+/* hero */
+
+.hero {
+  padding-top: 342px;
+  padding-bottom: 116px;
+}
+
+.hero-title {
+  color: var(--light-text);
+  font-size: 57px;
+  line-height: 1.06;
+  max-width: 838px;
+  font-weight: inherit;
+  margin-bottom: 14px;
+}
+
+.hero-text {
+  color: var(--additional-text);
+  font-size: 18px;
+  line-height: 1.55;
+  font-weight: inherit;
+  margin-bottom: 42px;
+}
+
+.header-btn-container {
+  display: flex;
+  gap: 16px;
+}
+
+.hero-offer-btn {
+  color: var(--additional);
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--button);
+  padding: 14px 34px;
+  border-radius: 100px;
+  font-weight: inherit;
+}
+
+.hero-works-btn {
+  color: var(--additional);
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 14px 34px;
+  border-radius: 100px;
+  background: var(--header-btn);
+  font-weight: inherit;
+}
+
+/* Money */
+
+.money {
+  background: var(--mission-title);
+}
+
+.money-title {
+  color: var(--dark-text);
+  font-size: 54px;
+  line-height: 1.07;
+}
