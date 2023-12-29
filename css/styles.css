@@ -379,3 +379,46 @@ body {
 .questions-icon {
   fill: #d8ccbf;
 }
+
+/* mission */
+
+.mission {
+  padding: 140px 0 96px;
+  background-image: url(../img/mission/mission-bg.webp);
+  background-size: cover;
+}
+
+.mission-title {
+  color: var(--additional-text);
+  font-size: 15px;
+  font-weight: inherit;
+  line-height: 1.06;
+  margin-bottom: 19px;
+}
+
+.mission-text {
+  color: var(--mission-title);
+  font-size: 48px;
+  font-weight: inherit;
+  line-height: 1.12;
+  max-width: 676px;
+  margin-bottom: 24px;
+}
+
+.mission-link {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--light-text);
+  font-size: 12px;
+  font-weight: inherit;
+  line-height: 1.66;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 13px;
+  border-bottom: 1px solid var(--light-text);
+}
+
+.mission-icon {
+  fill: var(--light-text);
+}
