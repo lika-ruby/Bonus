@@ -422,3 +422,125 @@ body {
 .mission-icon {
   fill: var(--light-text);
 }
+
+/* footer */
+
+.footer {
+  padding: 79px 0 27px;
+  background-color: var(--dark-bg);
+}
+
+.footer-container {
+  display: flex;
+  gap: 317px;
+  padding-bottom: 121px;
+  border-bottom: 1px solid var(--footer-line);
+}
+
+.footer-contacts-container {
+  margin-bottom: 86px;
+}
+
+.footer-contacts-list {
+  display: flex;
+  gap: 42px;
+}
+
+.footer-contacts-title {
+  color: var(--light-text);
+  font-size: 23px;
+  font-weight: inherit;
+  line-height: 1.04;
+  padding-bottom: 19px;
+}
+
+.footer-contact-btn {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: inherit;
+  line-height: 1.5;
+  border-radius: 100px;
+  border: 1px solid #7837f3;
+  background: var(--button);
+  padding: 9px 33px;
+}
+
+.footer-contact-link {
+  color: var(--light-text);
+  text-align: center;
+  font-size: 15px;
+  font-weight: inherit;
+  line-height: 1.6;
+  border-radius: 100px;
+  border: 1px solid var(--light-text);
+  padding: 9px 25px;
+  display: block;
+}
+
+.footer-moving-list {
+  display: flex;
+  gap: 75px;
+}
+
+.footer-moving-title {
+  color: var(--light-text);
+  font-size: 20px;
+  font-weight: inherit;
+  line-height: 0.8;
+  margin-bottom: 48px;
+}
+
+.footer-direction-link {
+  color: var(--light-text);
+  font-size: 16px;
+  font-weight: inherit;
+  line-height: 0.01;
+  margin-bottom: 47px;
+  display: block;
+}
+
+.footer-direction-item:last-child .footer-direction-link {
+  margin-bottom: 0;
+  display: block;
+}
+
+.footer-wit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.footer-wit-text {
+  color: var(--light-text);
+  text-align: right;
+  font-size: 14px;
+  font-weight: inherit;
+  line-height: 2;
+  margin-top: 46px;
+}
+
+.footer-social-container {
+  padding-left: 7px;
+  display: flex;
+  padding-top: 28px;
+  justify-content: space-between;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 298px;
+}
+
+.footer-social-icon {
+  fill: var(--mission-title);
+}
+
+.footer-social-text {
+  color: var(--light-text);
+  text-align: right;
+  font-size: 11px;
+  font-weight: inherit;
+  line-height: 1;
+  justify-content: flex-end;
+}
