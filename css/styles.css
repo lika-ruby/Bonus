@@ -256,4 +256,83 @@ body {
 
 .reviews {
   background: var(--additional);
+  padding: 116px 0 112px;
+}
+
+.reviews-centering-container {
+  display: flex;
+  justify-content: center;
+}
+
+.reviews-container {
+  display: flex;
+}
+
+.reviews-item-container:first-child {
+  padding-right: 43px;
+  border-right: 2px solid var(--reviews-line);
+}
+
+.reviews-item-container:last-child {
+  padding-left: 83px;
+}
+
+.reviews-icon {
+  margin: 0 auto;
+  display: block;
+}
+
+.reviews-item-container:first-child .reviews-icon {
+  fill: var(--second-expect);
+}
+
+.reviews-item-container:last-child .reviews-icon {
+  fill: var(--third-expect);
+}
+
+.reviews-text1 {
+  margin-bottom: 19px;
+  color: var(--light-text);
+  text-align: center;
+  font-size: 24px;
+  font-weight: inherit;
+  line-height: 1.33;
+  margin-top: 48px;
+}
+
+.reviews-text2 {
+  color: var(--light-text);
+  text-align: center;
+  font-size: 24px;
+  font-weight: inherit;
+  line-height: 1.33;
+}
+
+.reviews-avatar-container {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+  padding-left: 82px;
+  margin-top: 62px;
+}
+
+.reviews-avatar-text1 {
+  color: var(--light-text);
+  font-size: 14px;
+  font-weight: inherit;
+  line-height: 1.71;
+}
+
+.reviews-avatar-text2 {
+  color: var(--light-text);
+  font-size: 14px;
+  font-weight: inherit;
+  line-height: 1.71;
+}
+
+.reviews-logo {
+  fill: var(--mission-title);
+  margin: 0 auto;
+  display: block;
+  margin-top: 69px;
 }
