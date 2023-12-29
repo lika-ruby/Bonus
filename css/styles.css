@@ -138,10 +138,31 @@ body {
 
 .money {
   background: var(--mission-title);
+  padding: 76px 0 75px;
+}
+
+.money-container {
+  display: flex;
+  gap: 106px;
 }
 
 .money-title {
   color: var(--dark-text);
   font-size: 54px;
+  font-weight: inherit;
   line-height: 1.07;
+  margin-bottom: 15px;
+  max-width: 507px;
+}
+
+.money-text {
+  color: var(--dark-text);
+  font-size: 16px;
+  font-weight: inherit;
+  line-height: 1.37;
+  max-width: 452px;
+}
+
+.money-img-container {
+  padding-top: 17px;
 }
