@@ -530,6 +530,12 @@ body {
 .footer-social-list {
   display: flex;
   gap: 298px;
+  align-items: center;
+}
+
+.footer-social-item {
+  display: flex;
+  align-items: center;
 }
 
 .footer-social-icon {
@@ -543,4 +549,6 @@ body {
   font-weight: inherit;
   line-height: 1;
   justify-content: flex-end;
+  display: flex;
+  align-items: center;
 }
